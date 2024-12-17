@@ -1,6 +1,6 @@
 
 //import './App.css'
-import Search from "./component/searchbar"
+import Search from "./component/Search"
 import Mdetails from "./component/Mdetails"
 
 
