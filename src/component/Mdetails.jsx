@@ -2,7 +2,7 @@ import image1 from "../image/profile1.jpg"
 import image2 from "../image/profile2.jpg"
 import image3 from "../image/profile3.jpg"
 import image4 from "../image/profile4.jpg"
-import Message from "../Message"
+import Message from "./Message"
 
 
 function Mdetails(){
