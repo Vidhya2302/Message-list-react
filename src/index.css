@@ -1,12 +1,8 @@
+
 .whole{
-  background-color:rgb(225, 235, 225);
   display: flex;
   justify-content: center;
   align-items: center;
-  
-}
-#root{
-  background-color:rgb(225, 235, 225);
 }
 .search__A{
   display: flex;
