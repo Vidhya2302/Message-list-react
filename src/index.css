@@ -1,10 +1,12 @@
 .whole{
-  
-  display: grid;
+  background-color:rgb(225, 235, 225);
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(204, 213, 204);
   
+}
+#root{
+  background-color:rgb(225, 235, 225);
 }
 .search__A{
   display: flex;
@@ -68,4 +70,18 @@ margin: 0%;
 .profile__time p{
   margin:0px;
   margin-right:10px;
+}
+
+/* media querry */
+@media (max-width: 600px) {
+  .whole {
+    width: 300px;
+  
+    margin-right: 0px;
+    padding: 0 10px; /* Adds padding for small screens */
+  }
+  .profile,.search__A{
+  width:400px;
+  margin-left: 140px;
+}
 }
